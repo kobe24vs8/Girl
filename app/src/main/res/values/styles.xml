@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/md_red_400</item>
+    </style>
+
+    <!--隐藏ToolBar的字体-->
+    <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="WebTitle"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ViaTextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/md_grey_400</item>
+    </style>
+
+</resources>
